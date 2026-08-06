@@ -1,0 +1,9 @@
+/* Local customizations, post-WordPress (2026).
+   Loaded after the theme skin on every page — override anything here. */
+
+/* Nav: drop the "Slabo 27px" slab serif, match the site's sans stack */
+.fl-page-nav .navbar-nav,
+.fl-page-nav .navbar-nav a,
+.fl-page-nav .navbar-toggle {
+  font-family: "Helvetica", Verdana, Arial, sans-serif;
+}
